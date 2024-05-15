@@ -1,0 +1,54 @@
+<!-- #****************************************************************************************
+#***                                                                                  ***
+#***  Date: 15/5/2024  Time: 3:32 Pm     Author:  Shiraz Mazhar                       ***
+#***                                                                                  ***
+#***  Working On: Simple todo-list                                                    ***
+#***                                                                                  ***
+#**************************************************************************************** -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shiraz ToDos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="Beyond the Bails_1.png" alt="Logo" />
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="#" style="--clr: #ff1867">Home</a></li>
+          <li><a href="#" style="--clr: #ff1867">Services</a></li>
+          <li><a href="#" style="--clr: #ff1867">About Us</a></li>
+          <li><a href="#" style="--clr: #ff1867">Contact</a></li>
+          <li><a href="#" style="--clr: #ff1867">Careers</a></li>
+        </ul>
+      </nav>
+      <div class="btns">
+        <button>Login</button>
+        <button>Sign up</button>
+      </div>
+    </div>
+    <div class="center-container">
+      <div class="subcontainer">
+        <h2>Todo List</h2>
+        <ul id="todo-list">
+          <li>
+            <input type="checkbox" />
+            <input type="text" placeholder=" eg Team Meeting at 7" disabled />
+            <button class="delete-button">Delete</button>
+          </li>
+        </ul>
+        <div class="add-todo">
+          <input type="text" id="new-todo" placeholder="Add new todo" />
+          <button id="add-button">Add</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
