@@ -58,12 +58,12 @@ body {
 }
 
 .navbar ul li a:hover {
-  background-color: var(--clr);
-  box-shadow: 0 0 10px var(--clr), 0 0 80px var(--clr), 0 0 80px var(--clr);
+  background-color: #ff1867;
+  box-shadow: 0 0 10px #ff1867, 0 0 80px #ff1867, 0 0 80px #ff1867;
 }
 
 .navbar ul li a:hover {
-  background-color: var(--link-hover-bg-color);
+  background-color: var(#ff1867);
   color: var(--link-hover-color);
 }
 
@@ -178,4 +178,33 @@ h2 {
 
 .add-todo button:hover {
   background-color: #388e3c;
+}
+.edit-button {
+  padding: 6px 10px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 2px;
+  transition: background-color 0.3s;
+}
+
+#todo-list li {
+  padding: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+
+#todo-list li[data-priority="low"] {
+  background-color: #ebeb3e;
+}
+
+#todo-list li[data-priority="medium"] {
+  background-color: #2db2f0; 
+}
+
+#todo-list li[data-priority="high"] {
+  background-color: #e22424;
 }
