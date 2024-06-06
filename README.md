@@ -133,7 +133,7 @@ In order to run this project you need:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/shiraz342002/Password4Life/issues).
+Feel free to check the [issues page](https://github.com/shiraz342002/Simple-To_Do_List/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
